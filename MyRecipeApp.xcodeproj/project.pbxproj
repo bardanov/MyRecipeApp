@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4B470FB729C8D49600DCD235 /* MenuDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B470FB629C8D49600DCD235 /* MenuDetails.swift */; };
+		4B62D15729FC163400066BD2 /* RecipeFeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B62D15629FC163400066BD2 /* RecipeFeaturedView.swift */; };
 		4BB1CD3129D89F29006ECF26 /* TabMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB1CD3029D89F29006ECF26 /* TabMenu.swift */; };
 		4BF6A0FA29C8CF3100604D62 /* MyRecipeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF6A0F929C8CF3100604D62 /* MyRecipeAppApp.swift */; };
 		4BF6A0FC29C8CF3100604D62 /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF6A0FB29C8CF3100604D62 /* MenuList.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		4B470FB629C8D49600DCD235 /* MenuDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDetails.swift; sourceTree = "<group>"; };
+		4B62D15629FC163400066BD2 /* RecipeFeaturedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFeaturedView.swift; sourceTree = "<group>"; };
 		4BB1CD3029D89F29006ECF26 /* TabMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabMenu.swift; sourceTree = "<group>"; };
 		4BF6A0F629C8CF3100604D62 /* MyRecipeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRecipeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BF6A0F929C8CF3100604D62 /* MyRecipeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRecipeAppApp.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				4BF6A0FB29C8CF3100604D62 /* MenuList.swift */,
 				4B470FB629C8D49600DCD235 /* MenuDetails.swift */,
 				4BB1CD3029D89F29006ECF26 /* TabMenu.swift */,
+				4B62D15629FC163400066BD2 /* RecipeFeaturedView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				4BF6A0FC29C8CF3100604D62 /* MenuList.swift in Sources */,
 				4BB1CD3129D89F29006ECF26 /* TabMenu.swift in Sources */,
 				4BF6A0FA29C8CF3100604D62 /* MyRecipeAppApp.swift in Sources */,
+				4B62D15729FC163400066BD2 /* RecipeFeaturedView.swift in Sources */,
 				4B470FB729C8D49600DCD235 /* MenuDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

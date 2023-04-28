@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct MenuList: View {
-    @ObservedObject var model = RecipeModel()
+    @EnvironmentObject var model:RecipeModel
     var body: some View {
         NavigationView {
             List(model.recipes) { r in
@@ -20,7 +20,7 @@ struct MenuList: View {
                             Image(r.image)
                                 .resizable()
                                 .scaledToFill()
-                                .frame(width: 89, height: 89)
+                                .frame(width: 70, height: 70)
                                 .clipped()
                                 .cornerRadius(5)
                             Text(r.name)

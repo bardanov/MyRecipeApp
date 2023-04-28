@@ -29,6 +29,10 @@ struct ResourcesForMenu {
                     
                     for i in finalData {
                         i.id = UUID()
+                        
+                        for f in i.ingredients {
+                            f.id = UUID()
+                        }
                     }
                     return finalData
                 }

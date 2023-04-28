@@ -21,8 +21,8 @@ struct MenuDetails: View {
                         .padding(.bottom, 5)
                         .foregroundColor(.pink)
                     
-                    ForEach(recipe.ingredients, id: \.self) { item in
-                        Text("• " + String(item))
+                    ForEach(recipe.ingredients) { item in
+                        Text("• " + item.name)
                     }
                     Divider()
                         
